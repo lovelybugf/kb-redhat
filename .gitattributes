@@ -1,0 +1,12 @@
+# Chuẩn hoá xuống dòng LF cho mọi file văn bản (tránh cảnh báo CRLF trên Windows)
+* text=auto eol=lf
+*.pdf  binary
+*.docx binary
+*.doc  binary
+*.pptx binary
+*.xlsx binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.zip  binary

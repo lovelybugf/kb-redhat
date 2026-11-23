@@ -1,0 +1,30 @@
+# Tài liệu gốc dung lượng lớn: không đưa vào Git (ghi vị trí gốc trong trường source)
+# Muốn lưu bản gốc trong Git: bỏ các dòng dưới và dùng Git LFS (git lfs track "raw/*.pdf")
+raw/*.pdf
+raw/*.docx
+raw/*.doc
+raw/*.pptx
+raw/*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Hệ điều hành, OneDrive, Office, editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+.vscode/
+.idea/
+
+# Cấu hình Claude Code cục bộ
+.claude/settings.local.json
+
+# Bí mật
+.env
+*.pem
+*.key

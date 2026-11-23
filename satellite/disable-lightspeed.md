@@ -52,7 +52,7 @@ satellite-installer --iop-ensure absent
 ## Liên quan
 
 - [Activation Key chỉ áp dụng lúc đăng ký](activation-key-registration-only.md) — cùng nguyên tắc: cấu hình lúc đăng ký không tự áp lên host cũ.
-- [systemd — timer](../../kb-base-devops/linux/systemd-basics.md)
+- [systemd — timer](https://github.com/lovelybugf/kb-base-devops/blob/main/linux/systemd-basics.md)
 
 ## Nguồn
 

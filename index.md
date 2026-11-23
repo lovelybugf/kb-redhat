@@ -23,4 +23,4 @@ Mỗi `_index.md` của sản phẩm ghi phiên bản đang dùng và link tài 
 - [Sản phẩm Red Hat khác](other/_index.md) — Quay, ACM, ACS, ... khi chưa đủ trang để tách thư mục.
 - [README.md](README.md) — hướng dẫn nhanh cho người.
 - [log.md](log.md) — nhật ký thay đổi (chỉ ghi thêm).
-- [Chuẩn chung kb-core](../kb-core/index.md) — khuôn trang, tag, quy trình.
+- [Chuẩn chung kb-core](https://github.com/lovelybugf/kb-core/blob/main/index.md) — khuôn trang, tag, quy trình.

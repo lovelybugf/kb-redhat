@@ -62,7 +62,7 @@ hammer settings set --name default_redhat_download_policy --value immediate
 df -h /var/lib/pulp
 ```
 
-Cần mở rộng: xem [LVM — tạo và mở rộng volume](../../kb-base-devops/linux/storage-lvm.md).
+Cần mở rộng: xem [LVM — tạo và mở rộng volume](https://github.com/lovelybugf/kb-base-devops/blob/main/linux/storage-lvm.md).
 
 ## Kiểm tra
 

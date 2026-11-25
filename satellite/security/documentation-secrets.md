@@ -28,7 +28,7 @@ Ngoài ra luôn thay tên khách hàng, Organization/Location, FQDN, IP, tên t�
 
 ## Liên quan
 
-- [Huỷ đăng ký và đăng ký lại host](host-reregistration.md)
+- [Huỷ đăng ký và đăng ký lại host](../hosts/host-reregistration.md)
 
 ## Nguồn
 

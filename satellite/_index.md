@@ -6,12 +6,26 @@
 - **Tài liệu chính thức:** [Red Hat Satellite 6.19 — docs.redhat.com](https://docs.redhat.com/en/documentation/red_hat_satellite/6.19)
 - Placeholder dùng chung: `<SATELLITE_FQDN>`, `<CAPSULE_FQDN>`, `<HOST_FQDN>`, `<ORG>`, `<ORG_ID>`, `<LIFECYCLE_ENV>`, `<CONTENT_VIEW>`, `<REPO_ID>`.
 
+## Bắt đầu từ đâu
+
+| Câu hỏi | Trang |
+|---|---|
+| Satellite gồm những gì, mở cổng nào? | [Thành phần và dịch vụ](architecture/components-and-services.md), [Cổng mạng](architecture/network-ports.md) |
+| Dựng mới Satellite/Capsule | [Cài Satellite (connected)](installation/install-satellite-connected.md), [Cài Capsule](installation/install-capsule.md) |
+| Đưa nội dung tới host | [Repository và đồng bộ](content/repositories-and-sync.md) → [Content View và Lifecycle](content/content-views-and-lifecycle.md) |
+| Đăng ký host, vá lỗi | [Đăng ký host](hosts/host-registration.md) → [Vá bằng errata](hosts/patching-with-errata.md) |
+| Sao lưu, sự cố | [Backup và restore](operations/backup-and-restore.md), [Health check và xử lý sự cố](operations/health-check-and-troubleshooting.md) |
+| Tra lệnh nhanh | [Hammer cheatsheet](ansible/hammer-cheatsheet.md) |
+
 ## Trang
 
 <!-- AUTO-INDEX START -->
-- [Activation Key chỉ áp dụng lúc đăng ký host](activation-key-registration-only.md) — Activation Key (AK) chỉ được áp dụng một lần, lúc đăng ký host; sửa AK sau đó không làm thay đổi các host đã đăng ký.
-- [Tắt Red Hat Lightspeed (Insights) trên Satellite và host](disable-lightspeed.md) — Đặt global parameter boolean `host_registration_insights` và `host_registration_insights_inventory` bằng `false` để host đăng ký mới không cài và không gửi dữ liệu Lightspeed.
-- [Bí mật cần che khi đưa ảnh chụp và lệnh Satellite vào tài liệu](documentation-secrets.md) — Ảnh chụp và lệnh lấy từ quá trình triển khai Satellite hay lộ ba loại bí mật: mật khẩu admin, OAuth consumer key/secret, và token trong lệnh global registration.
-- [Download policy của repository (on_demand và immediate)](download-policy.md) — Mặc định repo Red Hat dùng `on_demand` (chỉ tải metadata, gói được tải khi host/Capsule yêu cầu), repo custom dùng `immediate`.
-- [Huỷ đăng ký và đăng ký lại host lên Satellite (global registration)](host-reregistration.md) — `subscription-manager unregister` và `clean` không đụng tới `/etc/rhsm/rhsm.conf`, nên host vẫn trỏ về Satellite cũ; đừng xoá `rhsm.conf` mà để lệnh global registration tự cấu hình lại, chỉ cần dọn CA cũ và proxy cũ.
+- [Ansible và Hammer](ansible/_index.md) — Tích hợp Ansible trong Satellite, Satellite Ansible Collection, tra cứu nhanh lệnh hammer.
+- [Kiến trúc và triển khai](architecture/_index.md) — Thành phần Satellite/Capsule, cổng mạng, mô hình triển khai, sizing và tuning.
+- [Quản lý nội dung](content/_index.md) — Subscription/manifest, repository và đồng bộ, download policy, content view và lifecycle environment, errata, đồng bộ giữa các Satellite, virt-who.
+- [Quản lý host](hosts/_index.md) — Đăng ký host, host group và tham số, remote execution, vá errata, gói, nâng cấp RHEL, report template, Lightspeed.
+- [Cài đặt và nâng cấp](installation/_index.md) — Cài Satellite (connected/disconnected), Capsule, load balancer, chứng chỉ, nâng cấp.
+- [Vận hành](operations/_index.md) — Sao lưu và khôi phục, health check và xử lý sự cố, cứu host khi Satellite hỏng, dung lượng, thông báo và webhook, giám sát.
+- [Provisioning](provisioning/_index.md) — Cấp phát máy: template, PXE, boot disk và kickstart không cần DHCP, discovery, compute resource VMware và cloud.
+- [Bảo mật](security/_index.md) — OpenSCAP, xác thực LDAP/AD/IdM, người dùng và phân quyền, che bí mật trong tài liệu.
 <!-- AUTO-INDEX END -->

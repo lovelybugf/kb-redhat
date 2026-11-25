@@ -6,7 +6,7 @@ Mỗi `_index.md` của sản phẩm ghi phiên bản đang dùng và link tài 
 
 ## Quản lý hạ tầng
 
-- [Satellite](satellite/_index.md) — nội dung (CV/LE, download policy), đăng ký host, Activation Key, Capsule, Lightspeed; đang dùng 6.19.
+- [Satellite](satellite/_index.md) — 6.19, 8 nhóm: kiến trúc, cài đặt/nâng cấp/Capsule, nội dung (CV/LE, errata, sync), host (đăng ký, REX, vá), provisioning, bảo mật (OpenSCAP, LDAP/IdM, RBAC), vận hành (backup, DR, health check), Ansible/hammer.
 - [RHEL](rhel/_index.md) — phần riêng sản phẩm RHEL: subscription, Leapp, vòng đời phiên bản.
 - [Identity Management (IdM)](idm/_index.md) — người dùng, Kerberos, DNS, HBAC, trust với AD.
 

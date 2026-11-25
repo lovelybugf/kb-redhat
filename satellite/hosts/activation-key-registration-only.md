@@ -59,7 +59,7 @@ Lưu ý: Capsule mới phải được gán lifecycle environment chứa content
 
 ## Liên quan
 
-- [Download policy của repository](download-policy.md)
+- [Download policy của repository](../content/download-policy.md)
 - [Tắt Red Hat Lightspeed](disable-lightspeed.md) — global parameter cũng chỉ tác động lúc đăng ký, host cũ phải xử lý riêng.
 
 ## Nguồn

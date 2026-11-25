@@ -72,7 +72,7 @@ hammer repository info --id <REPO_ID>      # xem trường Download Policy
 
 ## Liên quan
 
-- [Activation Key chỉ áp dụng lúc đăng ký](activation-key-registration-only.md)
+- [Activation Key chỉ áp dụng lúc đăng ký](../hosts/activation-key-registration-only.md)
 
 ## Nguồn
 

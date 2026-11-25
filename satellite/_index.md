@@ -11,5 +11,7 @@
 <!-- AUTO-INDEX START -->
 - [Activation Key chỉ áp dụng lúc đăng ký host](activation-key-registration-only.md) — Activation Key (AK) chỉ được áp dụng một lần, lúc đăng ký host; sửa AK sau đó không làm thay đổi các host đã đăng ký.
 - [Tắt Red Hat Lightspeed (Insights) trên Satellite và host](disable-lightspeed.md) — Đặt global parameter boolean `host_registration_insights` và `host_registration_insights_inventory` bằng `false` để host đăng ký mới không cài và không gửi dữ liệu Lightspeed.
+- [Bí mật cần che khi đưa ảnh chụp và lệnh Satellite vào tài liệu](documentation-secrets.md) — Ảnh chụp và lệnh lấy từ quá trình triển khai Satellite hay lộ ba loại bí mật: mật khẩu admin, OAuth consumer key/secret, và token trong lệnh global registration.
 - [Download policy của repository (on_demand và immediate)](download-policy.md) — Mặc định repo Red Hat dùng `on_demand` (chỉ tải metadata, gói được tải khi host/Capsule yêu cầu), repo custom dùng `immediate`.
+- [Huỷ đăng ký và đăng ký lại host lên Satellite (global registration)](host-reregistration.md) — `subscription-manager unregister` và `clean` không đụng tới `/etc/rhsm/rhsm.conf`, nên host vẫn trỏ về Satellite cũ; đừng xoá `rhsm.conf` mà để lệnh global registration tự cấu hình lại, chỉ cần dọn CA cũ và proxy cũ.
 <!-- AUTO-INDEX END -->

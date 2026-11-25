@@ -9,5 +9,5 @@
 ## Trang
 
 <!-- AUTO-INDEX START -->
-_(chưa có trang)_
+- [RHEL 10: dnf báo GPG check FAILED vì thiếu release key 4 (khoá hậu lượng tử)](rhel10-gpg-release-key-4.md) — Trên RHEL 10, gói được ký bằng release key 4 (khoá hậu lượng tử ML-DSA-87 + Ed448, ID `05707a62`) bị dnf từ chối nếu gói `redhat-release` còn cũ, chưa chứa khoá này.
 <!-- AUTO-INDEX END -->
